@@ -110,7 +110,6 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
 Support my work:
 
 - **PayPal**: [Paypal.me/@Adiityaanugrah10](https://www.paypal.com/paypalme/@Adiityaanugrah10)
-- **Buy Me a Coffee**: [buymeacoffee.com/YourID](https://www.buymeacoffee.com/YourID)
 - **Solana**: `GghXB5Qqx1RjJgRM1GHxngzipsNWifcBTkbxfM8VHnRK`
 
 ---
