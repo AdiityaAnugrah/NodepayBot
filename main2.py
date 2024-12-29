@@ -13,7 +13,7 @@ from rich.text import Text
 colorama.init(autoreset=True)
 console = Console()
 
-USE_PROXY = True  # Default; akan diatur berdasarkan pilihan pengguna
+USE_PROXY = True
 
 def log(level, message, color=Fore.WHITE):
     """Menambahkan elemen estetika dan format ke log"""
@@ -325,7 +325,7 @@ async def process_token(token, proxies):
 async def main():
     global USE_PROXY
     show_warning()
-    USE_PROXY = prompt_use_proxy()  # Tanyakan ke pengguna
+    USE_PROXY = prompt_use_proxy()  
 
     if USE_PROXY:
         log("INFO", "Anda memilih menggunakan proxy dari proxy.txt", Fore.LIGHTBLUE_EX)
