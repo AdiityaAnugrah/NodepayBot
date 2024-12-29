@@ -1,0 +1,10 @@
+aiohttp
+curl_cffi
+cloudscraper
+fake-useragent
+loguru
+python-dateutil
+pyfiglet
+pytz
+colorama
+rich
