@@ -16,8 +16,6 @@ console = Console()
 def log(level, message, color=Fore.WHITE):
     """Menambahkan elemen estetika dan format ke log"""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
-    # Menyusun teks level log dengan emoji dan gaya
     if level == "INFO":
         level_text = Text(f"[INFO]", style="bold green")
         emoji = "?"
@@ -30,11 +28,7 @@ def log(level, message, color=Fore.WHITE):
     else:
         level_text = Text(f"[{level}]", style="bold white")
         emoji = "??"
-    
-    # Membuat teks log dengan gaya dan warna
     styled_message = Text(f"{emoji} [{timestamp}] ", style="cyan") + level_text + Text(f" {message}", style=color)
-    
-    # Menampilkan log dalam panel yang lebih menarik
     console.print(Panel(styled_message, title="Log Output", title_align="left", padding=(1, 2)))
 
 def show_warning():
@@ -45,7 +39,7 @@ def show_warning():
 [bold yellow]     / /\ \    / /\ \     [/bold yellow]
 [bold yellow]    / ____ \  / ____ \    [/bold yellow]
 [bold yellow]   /_/    \_\/_/    \_\   [/bold yellow]
-[bold green]          AA-Code by A_A[/bold green]
+[bold green]          AA-Code by https://github.com/AdiityaAnugrah[/bold green]
     """
     console.print(Panel(warning_message, title="Peringatan", style="bold red", padding=(1, 2)))
     log("INFO", "Program dimulai...", Fore.LIGHTBLUE_EX)
