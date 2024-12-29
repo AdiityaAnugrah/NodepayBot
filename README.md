@@ -112,11 +112,10 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
   - Proxy status (if used).
   - Successful actions.
 - Logs are saved in the `logs/` directory for further review.
-- ![image](https://github.com/user-attachments/assets/040b09a7-f043-4c6f-bea8-aa9b75acf8fa)
 
 
 ### Example Result:
-![Network Status Example](https://github.com/AdiityaAnugrah/NodepayBot/raw/main/assets/network_status_example.png)
+![image](https://github.com/user-attachments/assets/040b09a7-f043-4c6f-bea8-aa9b75acf8fa)
 
 This result shows:
 - **Network Status**: Whether the connection is active.
