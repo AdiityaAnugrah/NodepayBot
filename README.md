@@ -2,10 +2,6 @@
 
 A bot designed to connect via multiple HTTP proxies and manage Nodepay accounts using a multi-account setup.
 
-## Repository Link
-
-Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/NodepayBot.git)
-
 ## Installation
 
 1. **Prepare the Environment**\
