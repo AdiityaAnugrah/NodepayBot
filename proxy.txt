@@ -1,0 +1,3 @@
+Masukan Proxy Anda Disini "v 
+Contoh Format Proxy :
+http://username:password@host:10808
