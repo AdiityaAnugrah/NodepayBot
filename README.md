@@ -91,7 +91,10 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
 5. 📂 Paste the generated proxies into `proxy.txt`.
 
 ## 📋 Running the Bot
-
+💡 Reminder: Always update the repository before running the bot:
+ ```bash
+   git pull origin main
+   ```
 1. To start the bot:
    ```bash
    python main.py
