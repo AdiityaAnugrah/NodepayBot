@@ -145,7 +145,7 @@ Support my work:
 
 ### 📝 Notes:
 
-- Replace `YourPayPalID` with your PayPal link if you'd like to receive donations.
+- Replace `@Adiityaanugrah10` with your PayPal link if you'd like to receive donations.
 - Ensure `tokens.txt` and `proxy.txt` are correctly configured before running the bot.
 - If you encounter any issues, feel free to open an issue or contribute to the repository.
 
