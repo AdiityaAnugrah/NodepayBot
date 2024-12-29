@@ -136,8 +136,8 @@ This result shows:
 Support my work:
 
 - **PayPal**: [Paypal.me/@Adiityaanugrah10](https://www.paypal.com/paypalme/@Adiityaanugrah10)
-- ☕ **Buy Me a Coffee**: [buymeacoffee.com/YourID](https://www.buymeacoffee.com/YourID)
 - **Solana**: `GghXB5Qqx1RjJgRM1GHxngzipsNWifcBTkbxfM8VHnRK`
+- **Bitcoin (BTC)**: `bc1qucjwg5zuedgkh7xqu3hmkgks5l5r0cmp8d7fml`
 
 ---
 
