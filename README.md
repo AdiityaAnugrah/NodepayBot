@@ -23,13 +23,20 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
    python3 -m venv venv && source venv/bin/activate
    ```
 
-3. **Install Dependencies**
+3. **Update the Repository**
+   🔄 Ensure you have the latest updates:
+
+   ```bash
+   git pull origin main
+   ```
+
+4. **Install Dependencies**
    📥 Install all necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Bot**
+5. **Run the Bot**
    ▶️ Start the bot with:
 
    ```bash
@@ -98,6 +105,25 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
    python dailyclaim.py
    ```
 
+## 📊 Result
+
+- The bot outputs results directly to the console, showing:
+  - Account status.
+  - Proxy status (if used).
+  - Successful actions.
+- Logs are saved in the `logs/` directory for further review.
+- ![image](https://github.com/user-attachments/assets/040b09a7-f043-4c6f-bea8-aa9b75acf8fa)
+
+
+### Example Result:
+![Network Status Example](https://github.com/AdiityaAnugrah/NodepayBot/raw/main/assets/network_status_example.png)
+
+This result shows:
+- **Network Status**: Whether the connection is active.
+- **Network Name**: Identifies the connected device.
+- **IP and Quality**: Details about the proxy's performance.
+- **Total Points Earned**: The accumulated points for each device.
+
 ## ⭐ Features
 
 - 🔄 Multi-account management.
@@ -110,8 +136,16 @@ Access the repository here: [NodepayBot](https://github.com/AdiityaAnugrah/Nodep
 Support my work:
 
 - **PayPal**: [Paypal.me/@Adiityaanugrah10](https://www.paypal.com/paypalme/@Adiityaanugrah10)
+- ☕ **Buy Me a Coffee**: [buymeacoffee.com/YourID](https://www.buymeacoffee.com/YourID)
 - **Solana**: `GghXB5Qqx1RjJgRM1GHxngzipsNWifcBTkbxfM8VHnRK`
 
 ---
 
+### 📝 Notes:
+
+- Replace `YourPayPalID` with your PayPal link if you'd like to receive donations.
+- Ensure `tokens.txt` and `proxy.txt` are correctly configured before running the bot.
+- If you encounter any issues, feel free to open an issue or contribute to the repository.
+
+---
 
